@@ -1,0 +1,90 @@
+[
+  {
+    "Command": [],
+    "Constant": [],
+    "Constructor": [],
+    "Deprecated": [],
+    "Field": [],
+    "Function": [
+      {
+        "name": "maximize",
+        "args": [
+          {
+            "name": "duration",
+            "type": "number",
+            "optional": true,
+            "desc": "The duration of the window animation."
+          },
+          {
+            "name": "margin",
+            "type": "number",
+            "optional": true,
+            "desc": "The margin to use for the window."
+          }
+        ],
+        "desc": "Maximizes the focused window, using the provided margin or a default margin if none is provided.",
+        "ret": ""
+      },
+      {
+        "name": "resize",
+        "args": [
+          {
+            "name": "newSize",
+            "type": "table",
+            "optional": true,
+            "desc": "The new size to resize the window to. If not provided, the window is maximized."
+          },
+          {
+            "name": "duration",
+            "type": "number",
+            "optional": true,
+            "desc": "The duration of the window animation."
+          }
+        ],
+        "desc": "Resizes the focused window to the provided size or maximizes it if no size is provided.",
+        "ret": ""
+      },
+      {
+        "name": "alignTop",
+        "args": [],
+        "desc": "Aligns the focused window to the top of the screen.",
+        "ret": ""
+      },
+      {
+        "name": "splitLeft",
+        "args": [
+          {
+            "name": "width",
+            "type": "number",
+            "optional": true,
+            "desc": "The percentage of the screen width to use for the window."
+          }
+        ],
+        "desc": "Splits the screen to the left, with the focused window taking up the left portion of the screen.",
+        "ret": ""
+      },
+      {
+        "name": "splitRight",
+        "args": [
+          {
+            "name": "width",
+            "type": "number",
+            "optional": true,
+            "desc": "The percentage of the screen width to use for the window."
+          }
+        ],
+        "desc": "Splits the screen to the right, with the focused window taking up the right portion of the screen.",
+        "ret": ""
+      }
+    ],
+    "Method": [],
+    "Variable": [],
+    "desc": "A Spoon for managing window sizes and positions.",
+    "doc": "A Spoon for managing window sizes and positions. Supports maximizing windows to the screen, aligning windows to the top, and splitting the screen to the left or right.\n\nDownload: [https://github.com/luizclaudiomoreira/MyWindowManager.spoon](https://github.com/luizclaudiomoreira/MyWindowManager.spoon)",
+    "items": [],
+    "name": "MyWindowManager",
+    "stripped_doc": "A Spoon for managing window sizes and positions. Supports maximizing windows to the screen, aligning windows to the top, and splitting the screen to the left or right.\n\nDownload: [https://github.com/luizclaudiomoreira/MyWindowManager.spoon](https://github.com/luizclaudiomoreira/MyWindowManager.spoon)",
+    "submodules": [],
+    "type": "Module"
+  }
+]
