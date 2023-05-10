@@ -26,9 +26,9 @@ end
 function obj:init()
   hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '0'}, function() obj:maximize(nil, 15) end)
   hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '9'}, function() obj:resize({ w = 1920, h = 1080 }) end)
-  hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '8'}, function() obj:resize({ w = 1710, h = 962  }) end)
+  hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '8'}, function() obj:resize({ w = 1712, h = 963  }) end)
   hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '7'}, function() obj:resize({ w = 1600, h = 900  }) end)
-  hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '6'}, function() obj:resize({ w = 1470, h = 827  }) end)
+  hs.hotkey.bindSpec({ { 'cmd', 'alt' }, '6'}, function() obj:resize({ w = 1472, h = 828  }) end)
 end
 
 -- Maximize focusedWindow
